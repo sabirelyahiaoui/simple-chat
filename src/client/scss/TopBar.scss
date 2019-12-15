@@ -1,0 +1,27 @@
+#topbar {
+  #appbar {
+    position: static;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  #disconnect-button-container {
+    width: 20%;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 100%;
+
+    #disconnect-button {
+      width: 80%;
+      height: 100%;
+      margin: 0 auto;
+    }
+  }
+
+  #connection-text {
+    width: 80%;
+  }
+}

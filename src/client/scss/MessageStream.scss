@@ -1,0 +1,26 @@
+#message-stream {
+  height: 87%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-width: 100%;
+
+  #load-more-button {
+    display: block;
+    width: 100%;
+  }
+
+  ul {
+    margin: 0;
+    //padding: 20px;
+    height: 100%;
+    list-style-type: none;
+  }
+
+  #scroll-down-button {
+    position: fixed;
+    bottom: 11%;
+    right: 30px;
+    //width: 20%;
+    //min-width: 200px;
+  }
+}

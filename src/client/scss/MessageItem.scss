@@ -1,0 +1,32 @@
+.message-item {
+  margin-left: 25px;
+  margin-bottom: 5px;
+  font-size: 17px;
+  min-height: 23px;
+
+  .message-text {
+    display: inline-block;
+    width: 95%;
+  }
+
+  .message-show-more {
+    display: none;
+    float: right;
+    width: 5%;
+    margin: 0;
+    padding: 0;
+    max-height: 23px;
+
+    .show-more-icon {
+      max-height: 23px;
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  &:hover {
+    .message-show-more {
+      display: block;
+    }
+  }
+}

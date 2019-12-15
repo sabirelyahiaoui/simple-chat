@@ -1,0 +1,26 @@
+#message-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  .message-group {
+    border-top: 1px solid grey;
+    margin-bottom: 20px;
+
+    .message-username {
+      display: inline-block;
+      font-size: 20px;
+      font-weight: 500;
+      margin-left: 15px;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+
+    .message-group-time {
+      display: inline-block;
+      margin-left: 10px;
+      font-size: 15px;
+      font-weight: 300;
+    }
+  }
+}
