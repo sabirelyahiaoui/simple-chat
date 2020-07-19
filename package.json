@@ -15,7 +15,7 @@
     "@material-ui/core": "^3.7.1",
     "@material-ui/icons": "^3.0.1",
     "knex": "^0.19.5",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "react": "^16.7.0-alpha.2",
     "react-dom": "^16.7.0-alpha.2",
     "react-linkify": "^0.2.2",
